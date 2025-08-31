@@ -1,4 +1,3 @@
-# app/core.py
 import requests
 import json
 from config import API_KEY, BASE_URL, FALLBACK_RATES
@@ -8,7 +7,7 @@ def get_exchange_rate(from_curr, to_curr):
         return 1.0
         
     try:
-        if API_KEY == "your_api_key_here" or not API_KEY:
+        if API_KEY == "eb52adf56dfc84523b43f714" or not API_KEY:
             print("Using fallback rates - no API key provided")
             if from_curr in FALLBACK_RATES and to_curr in FALLBACK_RATES:
                 return FALLBACK_RATES[to_curr] / FALLBACK_RATES[from_curr]

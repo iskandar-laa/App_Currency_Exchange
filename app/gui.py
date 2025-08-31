@@ -1,4 +1,3 @@
-# app/gui.py
 from tkinter import *
 import tkinter.messagebox as mb
 from app.core import convert_currency

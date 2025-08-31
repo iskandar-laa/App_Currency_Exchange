@@ -1,4 +1,3 @@
-# app/routes.py
 from flask import render_template, request, jsonify
 from app.core import convert_currency
 from app.utils import save_transaction

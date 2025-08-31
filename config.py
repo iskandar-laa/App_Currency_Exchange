@@ -1,6 +1,5 @@
-# config.py
-# Using a free API instead (no key required)
-API_KEY = "your_api_key_here"  # This can be left as is for fallback
+
+API_KEY = "eb52adf56dfc84523b43f714"  
 BASE_URL = "https://api.exchangerate-api.com/v4/latest/USD"
 FALLBACK_RATES = {
     "USD": 1.0,
